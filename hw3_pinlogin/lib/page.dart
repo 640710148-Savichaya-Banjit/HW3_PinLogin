@@ -125,7 +125,8 @@ class _Page_PinState extends State<Page_Pin> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(0, 0, 15.0, 10.0),
+                        padding:
+                            const EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 10.0),
                         child: InkWell(
                             onTap: () {
                               setState(() {
